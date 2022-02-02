@@ -1,8 +1,81 @@
-.main-div {
-  display: flex;
-  flex-wrap: wrap;
+h1 {
+  margin-left: 1.2rem;
+  color: #f5c236;
+  font-size: 1.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 2px black;
+}
+/* div {
+  border: 1px solid black;
+} */
+
+#bicycle-div {
+  font-size: 3rem;
+  position: fixed;
+  margin-left: 8.05rem;
 }
 
-div {
-  border: 1px solid black;
+.flex-container1,
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  margin-right: 2rem;
+  /* text-shadow: 1px 1px 6px black; */
+}
+
+.flex-container1 {
+  margin-left: 3rem;
+}
+
+.flex-container1 a {
+  padding-left: 12.5px;
+  text-decoration: none;
+  /* color: #ffbc05; */
+  color: grey;
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.flex-container2 a {
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#main-div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  box-shadow: 1px -2px 1rem 3px black;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+/* Hover */
+h1:hover {
+  color: #ffbc05;
+}
+
+.flex-container1 a:hover {
+  color: #ffbc05;
+  text-shadow: 1px 1px 8px black;
+}
+
+.flex-container2 a:hover {
+  color: #ffbc05;
 }
